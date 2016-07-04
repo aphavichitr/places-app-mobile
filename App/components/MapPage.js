@@ -151,7 +151,7 @@ class MapPage extends Component {
             enablePoweredByContainer={false}
             onPress={(data, details = null) => { // 'details' is provided when fetchDetails = true
               // console.log(data);
-              // console.log(data.id);
+              // console.log(data.place_id);
               // console.log(details.name);
               // console.log(details.geometry.location.lat);
               // console.log(details.geometry.location.lng);
